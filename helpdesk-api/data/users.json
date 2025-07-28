@@ -298,5 +298,40 @@
     "id": 60,
     "name": "Nome Atualizado",
     "email": "updated.1753578076686@example.com"
+  },
+  {
+    "id": 61,
+    "name": "Test User 1753675589843",
+    "email": "test.user.1753675589843@example.com"
+  },
+  {
+    "id": 62,
+    "name": "Test User 1753675598214",
+    "email": "test.user.1753675598214@example.com"
+  },
+  {
+    "id": 63,
+    "name": "Test User 1753675606783",
+    "email": "test.user.1753675606783@example.com"
+  },
+  {
+    "id": 64,
+    "name": "Test User 1753675607705",
+    "email": "test.user.1753675607705@example.com"
+  },
+  {
+    "id": 65,
+    "name": "Test User 1753675615800",
+    "email": "test.user.1753675615800@example.com"
+  },
+  {
+    "id": 66,
+    "name": "User 1753675631265",
+    "email": "user.1753675631265@example.com"
+  },
+  {
+    "id": 67,
+    "name": "Nome Atualizado",
+    "email": "updated.1753675642067@example.com"
   }
 ]

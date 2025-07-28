@@ -26,13 +26,8 @@ jobs:
         working-directory: ./helpdesk-testes
         run: npm install
 
-      - name: Start API Server in background
-        working-directory: ./helpdesk-api
-        run: npm start &
+      - name: Install Root Dependencies
+        run: npm install
 
-      - name: Wait for API to be ready
-        run: sleep 15
-
-      - name: Run Cypress Tests
-        working-directory: ./helpdesk-testes
-        run: npx cypress run
+      - name: Run API and Tests
+        run: npm test

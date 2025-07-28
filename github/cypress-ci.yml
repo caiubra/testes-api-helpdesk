@@ -1,0 +1,49 @@
+# Nome do seu workflow. Ele aparecerá na aba "Actions" do seu repositório no GitHub.
+name: Cypress API Tests CI
+
+# Define o gatilho (trigger) que inicia o workflow.
+# Neste caso, ele vai rodar sempre que houver um 'push' para a branch 'main' ou 'master',
+# ou quando um Pull Request for aberto para essas branches.
+on:
+  push:
+    branches: ["main", "master"]
+  pull_request:
+    branches: ["main", "master"]
+
+# Define os "trabalhos" (jobs) que o workflow vai executar.
+# Podemos ter vários jobs, mas para este caso, um é suficiente.
+jobs:
+  # Nome do nosso job. Pode ser qualquer nome.
+  cypress-run:
+    # Define o tipo de máquina virtual que o GitHub vai usar para rodar nosso job.
+    # 'ubuntu-latest' é uma escolha comum, rápida e gratuita.
+    runs-on: ubuntu-latest
+
+    # 'steps' são as ações sequenciais que o job vai executar.
+    steps:
+      # Passo 1: Baixar o código do repositório
+      # A ação 'actions/checkout@v3' é uma ação pronta do GitHub
+      # que baixa o código da sua branch para a máquina virtual.
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # Passo 2: Instalar o Node.js
+      # É importante definir a versão do Node.js para garantir que o ambiente
+      # seja o mesmo que o seu local.
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18" # Você pode usar a versão que preferir (16, 18, 20...)
+
+      # Passo 3: Instalar as dependências do projeto
+      # Este passo executa o comando 'npm install' para baixar o Cypress
+      # e todas as outras dependências listadas no seu package.json.
+      # O 'ci' em vez de 'install' é otimizado para ambientes de automação.
+      - name: Install dependencies
+        run: npm ci
+
+      # Passo 4: Rodar os testes do Cypress
+      # Este é o passo principal. Ele executa os testes em modo headless.
+      # O 'npx' garante que estamos usando a versão do Cypress instalada no projeto.
+      - name: Run Cypress tests
+        run: npx cypress run

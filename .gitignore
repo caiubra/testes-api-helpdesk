@@ -1,15 +1,8 @@
-# Ignora a pasta de dependências, que é a causa dos avisos
-node_modules
+﻿# Ignora as dependências de ambos os projetos
+helpdesk-api/node_modules
+helpdesk-testes/node_modules
 
-# Ignora logs do Cypress e do npm
-cypress.log
-npm-debug.log
-yarn-error.log
-
-# Ignora a pasta de relatórios gerados localmente
-cypress/reports/
-cypress/screenshots/
-cypress/videos/
-
-# Ignora arquivos de configuração de ambiente local
-.env
+# Ignora resultados de testes
+helpdesk-testes/cypress/reports/
+helpdesk-testes/cypress/screenshots/
+helpdesk-testes/cypress/videos/

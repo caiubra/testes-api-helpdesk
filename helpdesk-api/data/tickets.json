@@ -1,0 +1,296 @@
+[
+  {
+    "id": 1,
+    "userId": 1,
+    "description": "My internet is not working.",
+    "status": "Open",
+    "createdAt": "2025-03-11T14:30:00Z"
+  },
+  {
+    "id": 2,
+    "userId": 2,
+    "description": "The printer is not printing.",
+    "status": "In Progress",
+    "createdAt": "2025-03-11T15:10:00Z"
+  },
+  {
+    "id": 3,
+    "userId": 3,
+    "description": "I can't log into my email account.",
+    "status": "Closed",
+    "createdAt": "2025-03-11T16:20:00Z"
+  },
+  {
+    "id": 4,
+    "userId": 4,
+    "description": "My computer is making strange noises.",
+    "status": "Open",
+    "createdAt": "2025-03-11T17:00:00Z"
+  },
+  {
+    "id": 5,
+    "userId": 5,
+    "description": "The software update caused an error.",
+    "status": "In Progress",
+    "createdAt": "2025-03-11T18:15:00Z"
+  },
+  {
+    "id": 6,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T22:57:04.537Z"
+  },
+  {
+    "id": 7,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T23:04:41.232Z"
+  },
+  {
+    "id": 8,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T23:08:05.056Z"
+  },
+  {
+    "id": 9,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T23:08:48.099Z"
+  },
+  {
+    "id": 10,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T23:12:22.564Z"
+  },
+  {
+    "id": 11,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T23:16:31.754Z"
+  },
+  {
+    "id": 12,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T23:17:16.942Z"
+  },
+  {
+    "id": 13,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T23:21:11.212Z"
+  },
+  {
+    "id": 14,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T23:30:35.666Z"
+  },
+  {
+    "id": 15,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T23:31:27.928Z"
+  },
+  {
+    "id": 16,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T23:32:31.118Z"
+  },
+  {
+    "id": 17,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T23:35:52.451Z"
+  },
+  {
+    "id": 18,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T23:36:30.107Z"
+  },
+  {
+    "id": 19,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T23:38:55.965Z"
+  },
+  {
+    "id": 20,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T23:44:12.700Z"
+  },
+  {
+    "id": 21,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-25T23:49:07.301Z"
+  },
+  {
+    "id": 22,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-26T17:25:49.330Z"
+  },
+  {
+    "id": 23,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-26T17:41:12.614Z"
+  },
+  {
+    "id": 24,
+    "userId": 1,
+    "description": "Problema no teclado",
+    "status": "Open",
+    "createdAt": "2025-07-26T21:46:28.688Z"
+  },
+  {
+    "id": 25,
+    "userId": 25,
+    "description": "Ticket de teste - 2025-07-26T22:22:05.990Z",
+    "status": "Open",
+    "createdAt": "2025-07-26T22:22:06.043Z"
+  },
+  {
+    "id": 26,
+    "userId": 26,
+    "description": "Problema na impressora",
+    "status": "Open",
+    "createdAt": "2025-07-26T22:22:12.335Z"
+  },
+  {
+    "id": 27,
+    "userId": 29,
+    "description": "Ticket de teste - 2025-07-26T22:30:05.263Z",
+    "status": "Open",
+    "createdAt": "2025-07-26T22:30:05.286Z"
+  },
+  {
+    "id": 28,
+    "userId": 29,
+    "description": "Ticket de teste - 2025-07-26T22:30:05.263Z",
+    "status": "Open",
+    "createdAt": "2025-07-26T22:30:05.292Z"
+  },
+  {
+    "id": 29,
+    "userId": 30,
+    "description": "Problema na impressora",
+    "status": "Open",
+    "createdAt": "2025-07-26T22:30:09.807Z"
+  },
+  {
+    "id": 30,
+    "userId": 32,
+    "description": "Ticket de teste - 2025-07-26T22:30:13.987Z",
+    "status": "Open",
+    "createdAt": "2025-07-26T22:30:14.005Z"
+  },
+  {
+    "id": 31,
+    "userId": 36,
+    "description": "Ticket de teste - 2025-07-26T22:36:21.611Z",
+    "status": "Open",
+    "createdAt": "2025-07-26T22:36:21.641Z"
+  },
+  {
+    "id": 32,
+    "userId": 37,
+    "description": "Problema na impressora",
+    "status": "Open",
+    "createdAt": "2025-07-26T22:36:27.524Z"
+  },
+  {
+    "id": 33,
+    "userId": 39,
+    "description": "Ticket de teste - 2025-07-26T22:38:39.886Z",
+    "status": "In Progress",
+    "createdAt": "2025-07-26T22:38:39.905Z"
+  },
+  {
+    "id": 34,
+    "userId": 42,
+    "description": "Ticket de teste - 2025-07-26T22:44:19.592Z",
+    "status": "Open",
+    "createdAt": "2025-07-26T22:44:19.629Z"
+  },
+  {
+    "id": 35,
+    "userId": 44,
+    "description": "Ticket de teste - 2025-07-26T22:51:59.137Z",
+    "status": "Open",
+    "createdAt": "2025-07-26T22:51:59.197Z"
+  },
+  {
+    "id": 36,
+    "userId": 45,
+    "description": "Problema na impressora",
+    "status": "Open",
+    "createdAt": "2025-07-26T22:52:05.677Z"
+  },
+  {
+    "id": 37,
+    "userId": 48,
+    "description": "Ticket de teste - 2025-07-26T22:57:57.220Z",
+    "status": "Open",
+    "createdAt": "2025-07-26T22:57:57.244Z"
+  },
+  {
+    "id": 38,
+    "userId": 49,
+    "description": "Problema na impressora",
+    "status": "Open",
+    "createdAt": "2025-07-26T22:58:01.576Z"
+  },
+  {
+    "id": 39,
+    "userId": 51,
+    "description": "Ticket de teste - 2025-07-26T22:58:05.625Z",
+    "status": "In Progress",
+    "createdAt": "2025-07-26T22:58:05.645Z"
+  },
+  {
+    "id": 40,
+    "userId": 55,
+    "description": "Ticket de teste - 2025-07-27T00:58:25.365Z",
+    "status": "Open",
+    "createdAt": "2025-07-27T00:58:25.401Z"
+  },
+  {
+    "id": 41,
+    "userId": 56,
+    "description": "Problema na impressora",
+    "status": "Open",
+    "createdAt": "2025-07-27T00:58:30.870Z"
+  },
+  {
+    "id": 42,
+    "userId": 58,
+    "description": "Ticket de teste - 2025-07-27T00:58:37.329Z",
+    "status": "In Progress",
+    "createdAt": "2025-07-27T00:58:37.360Z"
+  }
+]
